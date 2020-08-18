@@ -5,6 +5,7 @@ package jarSampleLib;
 
 public class Library {
     public boolean someLibraryMethod() {
+    	System.out.println("lib call");
         return true;
     }
 }
